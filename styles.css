@@ -1,0 +1,484 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    font-size: 18px;
+    background-color: darkgray;
+}
+
+nav {
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701904420.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: fixed;
+    height: 800px;
+    
+}
+
+.nav-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
+
+.logo h1 {
+
+   margin-right: 100px;
+    color: #fff;
+    text-shadow: lightseagreen 1px 5px 10px;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: lightseagreen 1px 5px 10px;
+}
+
+.navbar a:hover {
+    text-shadow: lightseagreen 1px 5px 10px;
+    color: aquamarine;
+    text-decoration: underline;
+
+}
+
+
+.h1-container {
+    position: relative;
+    top: 200px;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+
+.h1-container h1 {
+    padding: 5px;
+    color: #000;
+    text-shadow: lightseagreen 1px 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: 5px solid #000;
+}
+
+.head-cartoon{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 650px;
+}
+
+
+.cartoon img {
+    width: 500px;
+
+}
+
+
+
+main {
+    margin-top: 300px;
+}
+
+
+.box1-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1-container img {
+    max-width: 500px;
+    box-shadow: #000 5px 5px 10px;
+}
+
+
+
+.main-box1 {
+  display: block;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #000 5px 5px 10px;
+  
+}
+
+.main-box1 h1 {
+    font-size: 4.5em;
+    text-align: center;
+    
+}
+
+
+.main-box1 p {
+    text-align: center;
+    padding: 10px;
+    max-width: 400px;
+    
+}
+
+
+
+.box2-container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box2-container img {
+    max-width: 500px;
+    box-shadow: #000 5px 5px 10px;
+}
+
+
+
+.main-box2 {
+  display: block;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #000 5px 5px 10px;
+  
+}
+
+.main-box2 h1 {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+.main-box2 p {
+    text-align: center;
+    padding-top: 10px;
+    max-width: 400px;
+    
+}
+
+
+
+
+footer {
+    box-shadow: #000 0px 0px 50px;
+    background-color: #0c164f;
+    margin-top: 200px;
+    height: 400px;
+}
+
+
+.footer-container a:hover {
+    color: aqua;
+    text-decoration: underline;
+    text-shadow: lightseagreen 1px 5px 10px;
+}
+
+
+.footer-container {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+ 
+
+.box1-a a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px;
+    
+    
+}
+
+
+.box1-footer ul {
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+    
+}
+
+
+
+.box2-footer ul {
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+    
+}
+  
+  .box2-a a {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: #fff;
+      margin-top: 30px;
+      padding: 10px;
+      
+      
+  }
+
+
+  
+ .box3-footer ul {
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+    
+  
+      
+  
+  }
+  
+  .box3-a a {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: #fff;
+      margin-top: 30px;
+      padding: 10px;
+      
+      
+  }
+
+
+
+@media (max-width: 860px) {
+
+    nav {
+        background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701904420.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 310px;        
+       
+       
+    }
+
+    .logo h1 {
+        
+        margin-left: 60px;
+        color: #fff;
+        text-shadow: lightseagreen 1px 5px 10px;
+        font-size: 60px;
+        font-weight: bolder;
+    
+    }
+    
+    
+    
+    .nav-container {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        
+    }
+    
+
+
+
+  
+    .navbar ul {
+        list-style: none;
+    
+    
+    }
+
+
+    .navbar a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: #fff;
+        text-shadow: lightseagreen 1px 5px 10px;
+       
+    }
+
+
+    
+.h1-container {
+     
+    position: relative;
+    top: 20px;
+    width: 50%;
+
+}
+
+.h1-container h1 {
+    color: #000;
+    text-shadow: lightseagreen 1px 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+
+.head-cartoon{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 150px;
+}
+
+
+.cartoon img {
+    width: 180px;
+
+}
+
+
+
+
+
+
+.box1-footer ul {
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+    
+}
+  
+  .box1-a a {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: #fff;
+      margin-top: 30px;
+      padding: 10px;
+      
+      
+  }
+  
+  main {
+    margin-top: 100px;
+}
+
+
+
+  .box1-container {
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+}
+
+.box1-container img {
+
+    
+    max-width: 300px;
+    box-shadow: #000 5px 5px 10px;
+}
+
+
+
+.main-box1 {
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #000 5px 5px 10px;
+    
+  }
+  
+  .main-box1 h1 {
+      font-size: 2.5em;
+      text-align: center;
+      
+  }
+  
+  
+
+
+  .box2-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box2-container img {
+    max-width: 300px;
+    box-shadow: #000 5px 5px 10px;
+}
+
+
+
+.main-box2 {
+    margin-top: 10px;
+  display: block;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #000 5px 5px 10px;
+  
+}
+
+
+
+.footer-container {
+    
+  display: flex;
+  justify-content: center;
+  
+    
+    
+}
+
+
+.footer-container ul {
+    border: none;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-decoration: underline;
+    
+}
+
+   
+    
+  }
+
+
+
