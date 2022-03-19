@@ -86,13 +86,13 @@ nav {
 .head-cartoon{
     display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: center;
     height: 650px;
 }
 
 
 .cartoon img {
-    width: 500px;
+    width: 200px;
 
 }
 
